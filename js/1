@@ -1,0 +1,25 @@
+/nextpage?country=ca&keyword=iphone
+/autocomplete?country=ca&keyword=iphone
+/detail?country=ca&keyword=iphone
+/search?country=ca&keyword=iphone
+
+{
+    "msg": "keyword必须设置",
+    "code": -1,
+    "data": {}
+}
+
+keyword---->关键词
+month--->月份
+searchs----》月搜索量
+yoySearchs--〉去年同月搜索量   没有数据返回-1
+momSearchs---》上月搜索量     没有数据返回-1
+top3clicks---〉top3点击占比
+month3Asins---〉近3月波动情况    没有数据返回“”
+month6Asins---〉近6月波动情况。  没有数据返回“”
+month12Asins---〉近12月波动情况    没有数据返回“”
+
+
+searchs_his--->搜索量历史记录
+clicks_his---》top3点击率历史记录
+convers_his---》top3转化率历史记录
